@@ -1,0 +1,159 @@
+ /*
+  *
+  * Tablet
+  *
+  */
+
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  /* 
+   *
+   * Landing Page
+   *
+   */
+
+   header#mainHeader > div > h1 {
+    font-size: 65px;
+    font-weight: bolder;
+    padding-top: 300px;
+    color: #343a40;
+  }
+
+  main#wrapper > div.aHome {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 280px;
+  }
+
+  main#wrapper > div > a {
+    font-size: 50px;
+    color: #343a40;
+  }
+
+  /*** Landing Page ***/
+
+  /*
+   *
+   * Home
+   *
+   */
+
+   div.container > div.row > div.col-sm-12 > div.welcome > h1 {
+    font-size: 2rem;
+    margin-top: 90px;
+  }
+
+  div.container > div.row > div.col-sm-4.left > div.aboutus {
+    padding-top: 10px;
+  }
+
+  div.container > div.row > div.col-sm-8.right {
+    position: relative;
+  }
+
+  div.container > div.row > div.col-sm-8.right > div.carousel {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+
+    /*
+     *
+     * Footer
+     *
+     */
+
+     footer#mainFooter.row > div.col-sm-4 > p.text-left {
+      font-size: 30px;
+    }
+
+    footer.mainFooter > div.row > div.col-sm-4 > p.text-left {
+      font-size: 13px;
+      margin-bottom: 0px;
+      padding-bottom: 5px;
+    }
+
+    footer.mainFooter > div.row > div.col-sm-4.socialIcon > ul {
+      padding-bottom: 5px;
+    }
+
+    footer.mainFooter > div.row > div.col-sm-4.booknow {
+      padding-bottom: 5px;
+    }
+
+    div.col-lg-4.socialIcon {
+      padding-bottom: 10px;
+    }
+
+    /*
+     *
+     * Gallery Page
+     *
+     */
+
+     div.welcomeGallery {
+      margin-top: 70px;
+    }
+
+    div.welcomeGallery > h1 {
+      font-size: 2rem;
+    }
+
+    div.caption {
+      text-align: center;
+      padding-top: 10px;
+    }
+
+    div.caption > h6 {
+      font-size: 2rem;
+    }
+
+    /*** gallery.html ***/
+
+    /*
+     *
+     * Rates page
+     *
+     */
+
+     h1.display-4 {
+      margin-top: 30px;
+    }
+
+    div.rateCards {
+      margin-top: 85px;
+      margin-bottom: 40px;
+    }
+
+    div.cardImage > img {
+      width: 100%;
+    }
+
+    div.card-header > h4 {
+      padding-top: 12px;
+    }
+
+    h1.card-title.pricing-card-title {
+      font-size: 1.5rem;
+    }
+
+    /*** rates.html ***/
+
+    /*
+     *
+     * Contact us
+     *
+     */
+
+     main.mainWrapper {
+      background-image: url(../img/contactus.html/contact1.jpg);
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      padding-bottom: 80px;
+      padding-top: 80px;
+    }
+
+  }

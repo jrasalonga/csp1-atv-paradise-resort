@@ -1,0 +1,186 @@
+ /*
+  *
+  * Mobile Device
+  *
+  */
+  @media only screen and (max-width: 400px) {
+
+    /* 
+     *
+     * Landing Page 
+     *
+     */
+
+     .fixed-top {
+      position: static;
+      } /* Navbar */
+
+      main#wrapper {
+        height: 100vh;
+      }
+
+      main#wrapper > header#mainHeader > div > h1 {
+        font-size: 28px;
+        font-weight: bolder;
+        padding-top: 145px;
+        color: #343a40;
+        } /* Welcome to ATV Paradise Resort */
+
+        main#wrapper > div.aHome {
+          text-align: center;
+          font-weight: bolder;
+          margin-top: 130px;
+        }
+
+        main#wrapper > div.aHome > a {
+          font-size: 20px;
+          color: #343a40;
+          } /* Proceed to home */
+
+          /*Landing Page*/
+
+    /*
+     *
+     * Home
+     *
+     */
+
+     div.welcome > h1 {
+      padding: 5px 0;
+      font-size: 2rem;
+      margin-top: 8px;
+    }
+
+    div.aboutus > h2 {
+      font-size: 1.5rem;
+      padding: 5px 0;
+      margin-bottom: 8px;
+    }
+
+    div.testimonial > h3 {
+      padding: 5px 0;
+      margin-bottom: 8px;
+      margin-top: 16px;
+    }
+
+    div.testimonial > p {
+      margin-bottom: 0px;
+    }
+
+    div.testimonial > p.lastTestimonial {
+      padding-bottom: 5px;
+      margin-bottom: 8px;
+    }
+
+    /*** Home ***/
+
+    /*
+     *
+     * Gallery Page
+     *
+     */
+
+     div.welcomeGallery > h1 {
+      /*text-align: center;*/
+      font-size: 2rem;
+      margin-top: 8px;
+    }
+
+    div.caption {
+      text-align: center;
+      padding: 5px 0;
+    }
+
+    /*** gallery.html ***/
+
+    /*
+     *
+     * Rates page
+     *
+     */
+
+     h1.display-4 {
+      margin-top: 0;
+      font-size: 3rem;
+    }
+
+    h1.card-title.pricing-card-title {
+      font-size: 2rem;
+    }
+
+    div.rateCards {
+      margin-top: 85px;
+      margin-bottom: 40px;
+    }
+
+    div.cardImage > img {
+      width: 100%;
+    }
+
+    div.card-header > h4 {
+      padding-top: 12px;
+    }
+
+    p.text-left {
+      font-size: 17px;
+    }
+
+    /*** rates.html ***/
+
+    /*
+     *
+     * Contact us
+     *
+     */
+
+     main.mainWrapper {
+      background-image: url(../img/contactus.html/contact1.jpg);
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      padding-bottom: 16px;
+    }
+
+    div.contactUs > h1 {
+      font-size: 2rem;
+      margin-top: 8px;
+    }
+
+    /*
+     *
+     * Footer
+     *
+     */
+
+     footer.mainFooter {
+      padding-top: 10px;
+      padding-left: 15px;
+      padding-bottom: 5px;
+      padding-right: 15px;
+      background-color: #e3f2fd;
+    }
+
+    footer.mainFooter > div.row > div.col-sm-4 > p.text-left {
+      font-size: 17px;
+      margin-bottom: 0px;
+      padding-bottom: 5px;
+    }
+
+    footer.mainFooter > div.row > div.col-sm-4.socialIcon > ul {
+      padding-bottom: 5px;
+    }
+
+    footer.mainFooter > div.row > div.col-sm-4.booknow {
+      padding-bottom: 5px;
+    }
+
+    .text-left {
+      text-align: center!important;
+    }
+
+    div.col-lg-4.socialIcon {
+      padding-bottom: 10px;
+    }
+
+  }

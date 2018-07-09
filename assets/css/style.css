@@ -1,0 +1,75 @@
+/*
+ *
+ * CSS Reset
+ *
+ */
+ 
+ * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*
+*
+* Header
+*
+*/
+
+header#mainHeader {
+  height: 10vh;
+  text-align: center;
+  color: black;
+}
+
+main#wrapper {
+  background-color: lightgrey;
+  height: 100vh;
+  background-image: url("../img/landingpage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div#bannerImage {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*
+ *
+ * Footer
+ *
+ */
+
+footer.mainFooter {
+  color: black;
+  font-size: 21px;
+  padding: 15px 15px 30px;
+  padding-top: 36px;
+  background-color: #e3f2fd;
+}
+
+div.socialIcon > ul > li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div.socialIcon > ul {
+  text-align: center;
+  margin: 0 auto;
+}
+
+div.booknow {
+  text-align: center;
+}
+
+div.booknow > a {
+  height: 50px;
+  width: 150px;
+  padding-top: 12px;
+}
+
